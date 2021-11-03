@@ -37,7 +37,7 @@ if playerChooses == "1":
 
     else:
         print("You need to make a decision, 1 or 2.")
-    
+
 elif playerChooses == "2":
     print("You decide to use the roof access to enter the bank")
     print("After reaching the roof, you open the vent and enter the bank.")
@@ -56,7 +56,7 @@ elif playerChooses == "2":
         print("Unfortunately guards are coming down the stairs at the same time.")
         print("You’re caught by the guards and taken away.")
         print("Game Over!")
-    
+
     elif roofChoice == "2":
         print("Using the rope you packed, you make a knot,")
         print("you descend down the shaft.")
