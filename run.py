@@ -37,4 +37,28 @@ if playerChooses == "1":
 
     else:
         print("You need to make a decision, 1 or 2.")
+    
+elif playerChooses == "2":
+    print("You decide to use the roof access to enter the bank")
+    print("After reaching the roof, you open the vent and enter the bank.")
+    print("To get to the vault you need to reach the underground")
+    print("Using the floor plans you acquired you know the route.")
+    print("After following your route you reach a decision, will you:")
+    print("1. Continue down the stairs")
+    print("2. Use the lift shaft")
 
+    roofChoice = input("Choose 1 or 2")
+
+    if roofChoice == "1":
+        print("You decide to continue down the staircase.")
+        print("Before reaching the bottom you hear talking but decide to proceed.")
+        print("Two guards waiting at the bottom and decide to run back up the stairs.")
+        print("Unfortunately guards are coming down the stairs at the same time.")
+        print("You’re caught by the guards and taken away.")
+        print("Game Over!")
+    
+    elif roofChoice == "2":
+        print("Using the rope you packed, you make a knot,")
+        print("you descend down the shaft.")
+        print("You reach the bottom floor and check if the coast is clear.")
+        print("After checking for guards, you exit the lift shaft.")
