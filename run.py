@@ -12,7 +12,7 @@ playerChooses = input("Choose 1, 2, 3 or 4")
 
 if playerChooses == "1":
     print("You decide to take the back alley route as per your planning.")
-    print("There is a weak wall which leads directly to the underground tunnel")
+    print("There is a weak wall which leads to the underground tunnel")
     print("To get to the vault you need to reach the underground")
     print("Using the floor plans you acquired you know the route")
     print("After following your route you reach a door, will you:")
@@ -51,9 +51,9 @@ elif playerChooses == "2":
 
     if roofChoice == "1":
         print("You decide to continue down the staircase.")
-        print("Before reaching the bottom you hear talking but decide to proceed.")
-        print("Two guards waiting at the bottom and decide to run back up the stairs.")
-        print("Unfortunately guards are coming down the stairs at the same time.")
+        print("Distant talking can be heard")
+        print("Two guards are waiting at the bottom, you run.")
+        print("Guards are coming down the stairs at the same time.")
         print("You’re caught by the guards and taken away.")
         print("Game Over!")
 
