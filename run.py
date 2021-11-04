@@ -1,3 +1,5 @@
+import random
+
 print("You’re attempting to pull off a heist.")
 print("You’ll need to navigate the bank, facing multiple challenges.")
 print("If you can reach the vault without alerting the guards, you’ll win.")
@@ -27,6 +29,17 @@ if playerChooses == "1":
         print("You continue your journey to the vault and reach a keypad")
         print("This wasn’t in the planning.")
         print("You need the correct code to pass this door.")
+        print("This number is between 1 - 5")
+
+        keypadChoice = int(input("Enter the combination"))
+
+        if keypadChoice == random.randint(1, 5):
+            print("The keypad lights up green.")
+            print("You were correct, the vault door is unlocked.")
+        else: 
+            print("The keypad lights up red.")
+            print("The guards are alerted.") 
+            print("Game over!") 
 
     elif alleyChoice == "2":
         print("You wait to see if anyone exits the door.")
