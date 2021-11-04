@@ -62,6 +62,9 @@ elif playerChooses == "2":
         print("you descend down the shaft.")
         print("You reach the bottom floor and check if the coast is clear.")
         print("After checking for guards, you exit the lift shaft.")
+    
+    else:
+        print("You need to make a decision, 1 or 2.")
 
 elif playerChooses == "3":
     print("You decide to use an access tunnel directly into the vault room")
@@ -79,6 +82,9 @@ elif playerChooses == "3":
         print("The noise starts to gain you unwanted attention..")
         print("Guards are alerted.")
         print("Game Over...... obviously.")
+    
+    else:
+        print("You need to make a decision, drill or hammer.")
 
 elif playerChooses == "4":
     print("You suit up in your bank uniform")
