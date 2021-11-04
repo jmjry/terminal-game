@@ -81,7 +81,19 @@ elif playerChooses == "3":
         print("Game Over...... obviously.")
 
 elif playerChooses == "4":
-    print("You decide to use an access tunnel directly into the vault room")
-    print("Using the underground access, you reach the wall")
-    print("Do you use a silent drill or sledgehammer?")
-    room3Choose = input("Choose drill or hammer")
+    print("You suit up in your bank uniform")
+    print("ID Number 2914")
+    print("Name, Danial B Cooper")
+    print("Date of birth 24/11/1971")
+    print("Walking confidently into the bank towards the security")
+    print("You're asked a question by the security")
+    print("What is the date of birth on your ID card?")
+    employeeChoice = input("Enter your answer:")
+
+    if employeeChoice == "24/11/1971":
+        print("The guard nods and you go through.")
+    
+    else: 
+        print("The guard grabs you")
+        print("You got the answer wrong")
+        print("Game Over!")
