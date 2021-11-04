@@ -62,7 +62,6 @@ elif playerChooses == "2":
         print("you descend down the shaft.")
         print("You reach the bottom floor and check if the coast is clear.")
         print("After checking for guards, you exit the lift shaft.")
-    
     else:
         print("You need to make a decision, 1 or 2.")
 
@@ -81,8 +80,7 @@ elif playerChooses == "3":
         print("Obviously you choose to hammer the wall")
         print("The noise starts to gain you unwanted attention..")
         print("Guards are alerted.")
-        print("Game Over...... obviously.")
-    
+        print("Game Over...... obviously.")  
     else:
         print("You need to make a decision, drill or hammer.")
 
@@ -98,7 +96,6 @@ elif playerChooses == "4":
 
     if employeeChoice == "24/11/1971":
         print("The guard nods and you go through.")
-    
     else: 
         print("The guard grabs you")
         print("You got the answer wrong")
