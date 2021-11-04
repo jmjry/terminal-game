@@ -62,3 +62,26 @@ elif playerChooses == "2":
         print("you descend down the shaft.")
         print("You reach the bottom floor and check if the coast is clear.")
         print("After checking for guards, you exit the lift shaft.")
+
+elif playerChooses == "3":
+    print("You decide to use an access tunnel directly into the vault room")
+    print("Using the underground access, you reach the wall")
+    print("Do you use a silent drill or sledgehammer?")
+    groundChoice = input("Choose drill or hammer")
+
+    if groundChoice == "drill":
+        print("Using the silent drill you begin drilling")
+        print("Slowly you create a hole wide enough to fit through")
+        print("You enter the hole facing the vault")
+
+    elif groundChoice == "hammer":
+        print("Obviously you choose to hammer the wall")
+        print("The noise starts to gain you unwanted attention..")
+        print("Guards are alerted.")
+        print("Game Over...... obviously.")
+
+elif playerChooses == "4":
+    print("You decide to use an access tunnel directly into the vault room")
+    print("Using the underground access, you reach the wall")
+    print("Do you use a silent drill or sledgehammer?")
+    room3Choose = input("Choose drill or hammer")
