@@ -36,10 +36,10 @@ if playerChooses == "1":
         if keypadChoice == random.randint(1, 5):
             print("The keypad lights up green.")
             print("You were correct, the vault door is unlocked.")
-        else: 
+        else:
             print("The keypad lights up red.")
-            print("The guards are alerted.") 
-            print("Game over!") 
+            print("The guards are alerted.")
+            print("Game over!")
 
     elif alleyChoice == "2":
         print("You wait to see if anyone exits the door.")
@@ -93,7 +93,7 @@ elif playerChooses == "3":
         print("Obviously you choose to hammer the wall")
         print("The noise starts to gain you unwanted attention..")
         print("Guards are alerted.")
-        print("Game Over...... obviously.")  
+        print("Game Over...... obviously.")
     else:
         print("You need to make a decision, drill or hammer.")
 
@@ -109,7 +109,7 @@ elif playerChooses == "4":
 
     if employeeChoice == "24/11/1971":
         print("The guard nods and you go through.")
-    else: 
+    else:
         print("The guard grabs you")
         print("You got the answer wrong")
         print("Game Over!")
