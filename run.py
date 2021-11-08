@@ -1,8 +1,6 @@
 import random
-
-"""
-Import random is used 
-for challenges in the 
+jls_extract_var = """Import random is used
+for challenges in the
 game with random numbers
 being generated.
 """
