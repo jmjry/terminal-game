@@ -1,5 +1,5 @@
 import random
-jls_extract_var = """Import random is used
+"""Import random is used
 for challenges in the
 game with random numbers
 being generated.
