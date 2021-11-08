@@ -1,5 +1,11 @@
 import random
 
+"""
+Import random is used 
+for challenges in the 
+game with random numbers
+being generated.
+"""
 print("You’re attempting to pull off a heist.")
 print("You’ll need to navigate the bank, facing multiple challenges.")
 print("If you can reach the vault without alerting the guards, you’ll win.")
@@ -51,6 +57,8 @@ if playerChooses == "1":
     else:
         print("You need to make a decision, 1 or 2.")
 
+# End of path 1
+
 elif playerChooses == "2":
     print("You decide to use the roof access to enter the bank")
     print("After reaching the roof, you open the vent and enter the bank.")
@@ -78,6 +86,8 @@ elif playerChooses == "2":
     else:
         print("You need to make a decision, 1 or 2.")
 
+# End of path 2
+
 elif playerChooses == "3":
     print("You decide to use an access tunnel directly into the vault room")
     print("Using the underground access, you reach the wall")
@@ -97,6 +107,8 @@ elif playerChooses == "3":
     else:
         print("You need to make a decision, drill or hammer.")
 
+# End of path 3
+
 elif playerChooses == "4":
     print("You suit up in your bank uniform")
     print("ID Number 2914")
@@ -113,3 +125,5 @@ elif playerChooses == "4":
         print("The guard grabs you")
         print("You got the answer wrong")
         print("Game Over!")
+
+# End of path 4
