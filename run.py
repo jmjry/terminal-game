@@ -90,8 +90,18 @@ while exitChoice != "EXIT":
 
             print("You head towards the vault and approach a keypad")
             print("You'll need to input the correct 3 digit code to enter")
-        else:
-            print("You need to make a decision, 1 or 2.")
+
+            keypad_input = None
+            while True:
+                keypad_input = input("Enter combination: \n")
+                if keypad_input.isdigit() and (
+                    int(keypad_input) > 268 and int(keypad_input) < 270
+                ):
+                    keypad_input = int(keypad_input)
+                    break
+                else:
+                    print("Input was not valid, try again. \n")
+                    continue
 
     # End of path 2
 
