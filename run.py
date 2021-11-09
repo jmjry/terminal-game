@@ -127,3 +127,12 @@ elif playerChooses == "4":
         print("Game Over!")
 
 # End of path 4
+
+# Easter egg
+if playerChooses == "easteregg":
+    print("Image of egg will appear here")
+    print("Congratulations.")
+
+
+else:
+    print("You need to make a decision, which route will you take?")
