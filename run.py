@@ -14,6 +14,7 @@ print("2, Roof")
 print("3, Underground")
 print("4, Pose as an Employee")
 
+# Allows the user to input their answer into the terminal
 playerChooses = input("Choose 1, 2, 3 or 4")
 
 if playerChooses == "1":
@@ -35,8 +36,9 @@ if playerChooses == "1":
         print("You need the correct code to pass this door.")
         print("This number is between 1 - 5")
 
+        # Converts the input into an int
         keypadChoice = int(input("Enter the combination"))
-
+        # Random number between 1 - 5 is generated
         if keypadChoice == random.randint(1, 5):
             print("The keypad lights up green.")
             print("You were correct, the vault door is unlocked.")
