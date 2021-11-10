@@ -85,19 +85,20 @@ while exitChoice != "EXIT":
         elif roofChoice == "2":
             print("Using the rope you packed, you make a knot,")
             print("you descend down the shaft.")
+            print("On the wall you see three numbers")
+            print("6, 9 and 2")
             print("You reach the bottom floor and check for guards")
             print("After checking for guards, you exit the lift shaft.")
-
             print("You head towards the vault and approach a keypad")
             print("You'll need to input the correct 3 digit code to enter")
 
-            keypad_input = None
+            keypadInput = None
             while True:
-                keypad_input = input("Enter combination: \n")
-                if keypad_input.isdigit() and (
-                    int(keypad_input) > 268 and int(keypad_input) < 270
+                keypadInput = input("Enter combination: \n")
+                if keypadInput.isdigit() and (
+                    int(keypadInput) > 268 and int(keypadInput) < 270
                 ):
-                    keypad_input = int(keypad_input)
+                    keypadInput = int(keypadInput)
                     break
                 else:
                     print("Input was not valid, try again. \n")
