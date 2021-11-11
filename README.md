@@ -2,11 +2,18 @@
 
 ## What is Terminal Game?
 
-Description
+NAME is a text-based adventure game. Your character (randomised upon starting the game) is going to rob a bank. Every decision you make has consequences and you'll need to use logic to navigate safely through the security and open the bank vault to win.
 
 ## Planning process:
 
+* In my initial design, I branched out the logic and paths a user could follow to either win the game or lose the game. The flow demonstrated when a user will make choices, face challenges and either win or lose.
+![PP3 User Flow](https://user-images.githubusercontent.com/86608354/141331355-41acd957-9d4e-4ff6-9f34-f9ef0d3c26de.png)
+* The original content for the game was drafted in a google doc to ensure spelling, punctuation and grammar were accurate. You can [view the google doc here](https://docs.google.com/document/d/1lgPP9bIV8M1vxFhaoXsuXvOUJz8m8mP5Ni0mhJJc1eQ/edit?usp=sharing)
+
 ### Changes to my planning process: 
+
+* My original design path remains however it became apparent that the game could be navigated to completion very quickly. For this reason, I decided to add additional paths to each of the routes - those changes can be seen here.
+* As the design path changed additional content was required to furfill this.
 
 #### Intial Design
 * 
@@ -15,7 +22,7 @@ Description
 * 
 * 
 * 
-* A
+* 
 
 ## Technologies: 
 
@@ -30,24 +37,29 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 
 ### Current features:
 
-* F1 - 
+* F1 - Loading the game 
 
+* F2 - Character generator 
 
-* F2 - 
+* F3 - Starting the game 
 
-* F3 -
+* F4 - First decision 
 
-* F4 - 
+* F5 - Random number generator 
 
-* F5 -  
+* F6 - Keypad loop puzzle 
 
-* F6 -
+* F7 - Word input 
 
-* F7 -
+* F8 - 1st Maths Puzzle 
+
+* F9 - 2nd Maths Puzzle 
+
+* F10 - Key date puzzle 
 
 ### Features which could be implemented in the future:
 
-* F9 -
+* F11 - Easter Egg
 
 ## Testing 
 
@@ -70,11 +82,11 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
  ### Accessibility testing 
  
- * I used [WAVE] to test the accessibility of Country Royale. 
+ * I used [WAVE] to test the accessibility of  
  
  * Lighthouse Testing
  
-  * Using the lighthouse testing available with the google devtool Country Royale received a performance score of 86. To improve this, I should upload all of my images into an online storage and call upon the url instead of transfering this data directly. 
+  * 
 
 * Feature Testing 
 
@@ -85,17 +97,17 @@ Testing was undertaken at the start, during and after finishing my project. To c
  
  * 
  
- ## Deployment 
+ ## Deployment via Heroku 
 
 ### How was this site deployed? 
 
-[Link to live site]
 
  ## Credits:
  
  * To ensure my CSS code was formatted correctly, I ran it through a formatter which can be found here: [CSS Code Formatter](https://www.freeformatter.com/css-beautifier.html#ad-output)
  * To ensure my HTML code was formatted correctly, I ran it through a formatter which can be found here: [HTML Code Formatter](https://www.freeformatter.com/html-formatter.html)
  * To ensure my JavaScript code was formatted correctly, I ran it through a formatter which can be found here: [JavaScript Code Formatter](https://beautifier.io/)
+ * * To ensure my Python code was formatted correctly, I ran it through a PEP8 formatter which can be found here: 
 
 ### Content 
 
