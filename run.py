@@ -10,9 +10,11 @@ while exitChoice != "EXIT":
     """
     player = ["A Teacher", "A Golfer", "A Coder", "An Egg"]
     reason = ["Money", "Respect", "Revenge", "Fun"]
-    outfit = ["Naked", "All Black", "Regular Clothes", "Egg Outfit"]      
+    outfit = ["Naked", "All Black", "Regular Clothes", "Egg Outfit"]
 
-    print(f"{random.choice(player)} is robbing the bank for {random.choice(reason)} wearing {random.choice(outfit)}")
+    print(
+        f"{random.choice(player)} is robbing the bank for {random.choice(reason)} wearing {random.choice(outfit)}"
+    )
     input("Press enter to continue\n")
     print("You’re attempting to pull off a heist.")
     print("You’ll need to navigate the bank, facing multiple challenges.")
@@ -123,6 +125,26 @@ while exitChoice != "EXIT":
             print("Using the silent drill you begin drilling")
             print("Slowly you create a hole wide enough to fit through")
             print("You enter the hole facing the vault")
+            print("To enter the vault you'll need to crack the keypad")
+            keypadCrack = input("\nChoose to hack or smash the keypad\n")
+
+            if keypadCrack == "hack":
+                print("You decide to hack the keypad")
+                print("You'll need to solve multiple puzzles")
+                puzzleStart = input("Press enter on the keypad to start.\n")
+                print("If 1=3")
+                print("2=3")
+                print("3=5")
+                print("4=4")
+                print("5=4")
+                puzzleOne = input("Then 6 = ?\n")
+
+                if puzzleOne == "3":
+                    print("The keypad lights green")
+                    print("You got the first puzzle right!")
+                else:
+                    print("You got it wrong, the keypad lights red")
+                    print("The guards come rushing in and you're captured!")
 
         elif groundChoice == "hammer":
             print("Obviously you choose to hammer the wall")
