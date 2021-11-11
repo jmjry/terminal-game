@@ -99,7 +99,7 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
 ### Content 
 
-*
+* For interesting maths puzzles I used [CUE MATH](https://www.cuemath.com/learn/fun-maths-questions/) and selected a few of their puzzles for my game.
 
 ### Code 
 
