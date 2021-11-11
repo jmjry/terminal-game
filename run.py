@@ -142,6 +142,19 @@ while exitChoice != "EXIT":
                 if puzzleOne == "3":
                     print("The keypad lights green")
                     print("You got the first puzzle right!")
+                    print("Next question\n")
+                    print("There is a three-digit number")
+                    print("The second digit is four times as big as the third")
+                    print("while the first digit is three less than the second")
+                    puzzleTwo = input("What is the number?\n")
+                    
+                    if puzzleTwo == "141":
+                        print("The keypad lights green")
+                        print("The vault begins to unlock")
+                        print("You've broke into the bank, congratulations!")
+                    else:
+                        print("You got it wrong, the keypad lights red")
+                        print("The guards come rushing in and you're captured!")
                 else:
                     print("You got it wrong, the keypad lights red")
                     print("The guards come rushing in and you're captured!")
