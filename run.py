@@ -28,12 +28,12 @@ while exitChoice != "EXIT":
     playerChooses = input("Choose 1, 2, 3 or 4\n")
 
     if playerChooses == "1":
-        print("You decide to take the back alley route as per your planning.")
+        print("\nYou decide to take the back alley route as per your planning.")
         print("There is a weak wall which leads to the underground tunnel")
         print("To get to the vault you need to reach the underground")
         print("Using the floor plans you acquired you know the route")
-        print("After following your route you reach a door, will you:")
-        print("1. Enter the door ")
+        print("After following your route you reach a door, will you:/n")
+        print("1. Enter the door")
         print("2. Wait and see if anyone exits")
 
         alleyChoice = input("Choose 1 or 2\n")
