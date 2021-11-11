@@ -158,4 +158,4 @@ while exitChoice != "EXIT":
         print("Image of egg will appear here")
         print("Congratulations.")
 
-    exitChoice = input("You won! Press return to play again or type EXIT!\n")
+    exitChoice = input("Press return to play again or type EXIT!\n")
