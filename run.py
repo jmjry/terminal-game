@@ -13,7 +13,7 @@ while exitChoice != "EXIT":
     outfit = ["Naked", "All Black", "Regular Clothes", "Egg Outfit"]      
 
     print(f"{random.choice(player)} is robbing the bank for {random.choice(reason)} wearing {random.choice(outfit)}")
-    input("Press enter to continue")
+    input("Press enter to continue\n")
     print("You’re attempting to pull off a heist.")
     print("You’ll need to navigate the bank, facing multiple challenges.")
     print("Reach the vault without alerting the guards, you’ll win.")
@@ -25,7 +25,7 @@ while exitChoice != "EXIT":
     print("4, Pose as an Employee")
 
     # Allows the user to input their answer into the terminal
-    playerChooses = input("Choose 1, 2, 3 or 4")
+    playerChooses = input("Choose 1, 2, 3 or 4\n")
 
     if playerChooses == "1":
         print("You decide to take the back alley route as per your planning.")
@@ -36,7 +36,7 @@ while exitChoice != "EXIT":
         print("1. Enter the door ")
         print("2. Wait and see if anyone exits")
 
-        alleyChoice = input("Choose 1 or 2")
+        alleyChoice = input("Choose 1 or 2\n")
 
         if alleyChoice == "1":
             print("You enter the door without checking for guards")
@@ -47,7 +47,7 @@ while exitChoice != "EXIT":
             print("This number is between 1 - 5")
 
             # Converts the input into an int
-            keypadChoice = int(input("Enter the combination"))
+            keypadChoice = int(input("Enter the combination\n"))
             # Random number between 1 - 5 is generated
             if keypadChoice == random.randint(1, 5):
                 print("The keypad lights up green.")
@@ -78,7 +78,7 @@ while exitChoice != "EXIT":
         print("1. Continue down the stairs")
         print("2. Use the lift shaft")
 
-        roofChoice = input("Choose 1 or 2")
+        roofChoice = input("Choose 1 or 2\n")
 
         if roofChoice == "1":
             print("You decide to continue down the staircase.")
@@ -101,7 +101,7 @@ while exitChoice != "EXIT":
             keypadInput = None
             while True:
                 # User will have to keep answering until they get the answer
-                keypadInput = input("Enter combination: \n")
+                keypadInput = input("Enter combination:\n")
                 if keypadInput.isdigit() and (
                     int(keypadInput) > 268 and int(keypadInput) < 270
                 ):
@@ -117,7 +117,7 @@ while exitChoice != "EXIT":
         print("You decide to use an access tunnel directly into the vault")
         print("Using the underground access, you reach the wall")
         print("Do you use a silent drill or sledgehammer?")
-        groundChoice = input("Choose drill or hammer")
+        groundChoice = input("Choose drill or hammer\n")
 
         if groundChoice == "drill":
             print("Using the silent drill you begin drilling")
@@ -142,7 +142,7 @@ while exitChoice != "EXIT":
         print("Walking confidently into the bank towards the security")
         print("You're asked a question by the security")
         print("What is the date of birth on your ID card?")
-        employeeChoice = input("Enter your answer:")
+        employeeChoice = input("Enter your answer:\n")
 
         if employeeChoice == "24/11/1971":
             print("The guard nods and you go through.")
@@ -158,4 +158,4 @@ while exitChoice != "EXIT":
         print("Image of egg will appear here")
         print("Congratulations.")
 
-    exitChoice = input("You won! Press return to play again or type EXIT!")
+    exitChoice = input("You won! Press return to play again or type EXIT!\n")
