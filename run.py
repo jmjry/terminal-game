@@ -183,6 +183,49 @@ while exitChoice != "EXIT":
 
         if employeeChoice == "24/11/1971":
             print("The guard nods and you go through.")
+            print("You walk down the stairs towards the vault.")
+            print("You'll need todays password to enter the vault.")
+            print("You could either steal it, guess it or find it.")
+            passwordFinder = input("How will you get the password?\n")
+
+            if passwordFinder == "steal it":
+                print("You decide to steal it from a guard")
+                print("You enter the locker rooms")
+                print("Now you need to find the right locker")
+                print("Searching..... \n")
+                print("Got it, now it's time to break in")
+                print("You've just realised the time, 12pm. Lunchbreak.")
+                print("Ten guards enter the lockeroom as you crack the locker.")
+                print("Game Over, you got caught!")
+            elif passwordFinder == "guess it":
+                print("You decide to take a wild guess, genius!")
+                passwordAnswer = input("What is the password?\n")
+                if passwordAnswer == "eggman":
+                    print("The keypad lights green, you actually got it?")
+                    print("You now have access to the vault!")
+                    print("Congratulations, you won!")
+                else:
+                    print("The keypad lights red and the alarms start rining.")
+                    print("Maybe guessing wasn't the best idea...")
+                    print("Game over, you lost!")
+            elif passwordFinder == "find it":
+                print("You decide to find the password in the bank")
+                print("Going upstairs you locate the bank managers office")
+                print("Sneaking in, you look through the computer to find todays password")
+                print("Searching......\n")
+                print("You found it! Today's password is eggman")
+                print("Are you ready to unlock the vault?")
+                passwordAnswer = input("What is the password?\n")
+                if passwordAnswer == "eggman":
+                    print("The keypad lights green, the vault door unlocks.")
+                    print("You now have access to the vault!")
+                    print("Congratulations, you won!")
+                else:
+                    print("The keypad lights red, you got it wrong.")
+                    print("The alarms ring and guards come rushing.")
+                    print("Game over!")
+            else:
+                print("Make a decision, steal it, guess it or find it")
         else:
             print("The guard grabs you")
             print("You got the answer wrong")
