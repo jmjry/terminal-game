@@ -108,6 +108,8 @@ while exitChoice != "EXIT":
                     int(keypadInput) > 268 and int(keypadInput) < 270
                 ):
                     keypadInput = int(keypadInput)
+                    print("The keypad lights green.")
+                    print("You were correct, the vault door is unlocked.")
                     break
                 else:
                     print("Input was not valid, try again. \n")
