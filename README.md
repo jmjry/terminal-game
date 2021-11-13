@@ -61,6 +61,9 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 
 * F11 - Easter Egg
 
+* F12 - User Login
+I'd like to add the availbility for a user to create an account for the game. This would require a user to register a username and password which will then be stored in a google sheet and linked via an API. With this added, it would give the game scope to enhance the user experience and furthering the way users interact with the game.
+
 ## Testing 
 
 Testing was undertaken at the start, during and after finishing my project. To complete my testing I used the [Google Chrome DevTool](https://developer.chrome.com/docs/devtools/), a spreadsheet to track tests, validators (as seen below) and reviews by peers (as seen in the credits).
@@ -79,6 +82,9 @@ Testing was undertaken at the start, during and after finishing my project. To c
    * No erros were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)  
    
  * JavaScript
+
+* PEP8 
+ * No major errors were found when passing through the [PEP8 Online Check] (http://pep8online.com)
 
  ### Accessibility testing 
  
