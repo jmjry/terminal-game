@@ -12,17 +12,8 @@ Bank Heist is a text-based adventure game. Your character (randomised upon start
 
 ### Changes to my planning process: 
 
-* My original design path remains however it became apparent that the game could be navigated to completion very quickly. For this reason, I decided to add additional paths to each of the routes - those changes can be seen here.
+* My original design path remains however it became apparent that the game could be navigated to completion very quickly. For this reason, I decided to add additional paths to each of the routes.
 * As the design path changed additional content was required to furfill this.
-
-#### Intial Design
-* 
-* 
-* 
-* 
-* 
-* 
-* 
 
 ## Technologies: 
 
@@ -31,7 +22,7 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 ### Frameworks, Libraries & Programs: 
 * [GitPod](https://www.gitpod.io/) was the version control used.
 * [GitHub](https://github.com/) is the repository used for project codes to be pushed from GitPod.
-* [Balsamiq](https://balsamiq.com/) was used to create wireframes during the design process of this project.
+* [Flowmap](https://www.flowmapp.com) was used to create user flowmaps during the design process of this project.
 
 ## Features 
 
@@ -80,9 +71,11 @@ The user will need to read and comprehend the content provided to ensure they kn
 ### Features which could be implemented in the future:
 
 * F11 - Easter Egg
+
 With additional time I would like to add an Easter Egg to the game. Many game players enjoy searching and hunting for easter eggs so I feel this addition would improve the value and playability of my game.
 
 * F12 - User Login
+
 I'd like to add the availbility for a user to create an account for the game. This would require a user to register a username and password which will then be stored in a google sheet and linked via an API. With this added, it would give the game scope to enhance the user experience and furthering the way users interact with the game.
 
 ## Testing 
@@ -90,9 +83,8 @@ I'd like to add the availbility for a user to create an account for the game. Th
 Testing was undertaken at the start, during and after finishing my project. To complete my testing I used the [Google Chrome DevTool](https://developer.chrome.com/docs/devtools/), a spreadsheet to track tests, validators (as seen below) and reviews by peers (as seen in the credits).
 
 ### Feature testing 
-* Each feature was tested for responsiveness on desktop, tablet and mobile. If the feature responded correctly then it was marked green on my spreadsheet.
-* All features that had links were tested to ensure the link would work when a user click on it. All of the links passed the test and was marked green.
-* All form fields were tested to ensure the correct information was submitted. The form fields passed the test and was marked green. 
+* Each feature was tested. If the feature responded correctly then it was marked green on my spreadsheet.
+* All of the features were compared against the original idea and I ensured they met the crtieria I set out with. 
 
 ### Validator testing 
 
@@ -108,16 +100,6 @@ Testing was undertaken at the start, during and after finishing my project. To c
  * No major errors were found when passing through the [PEP8 Online Check] (http://pep8online.com)
 
  ### Accessibility testing 
- 
- * I used [WAVE] to test the accessibility of  
- 
- * Lighthouse Testing
- 
-  * 
-
-* Feature Testing 
-
- * Each individual feature was tested with the results recorded on a spreadsheet. The test includes responsiveness checks and that the feature completes the intended task. 
 
 
  ### Known Bugs 
@@ -134,11 +116,11 @@ Testing was undertaken at the start, during and after finishing my project. To c
  * To ensure my CSS code was formatted correctly, I ran it through a formatter which can be found here: [CSS Code Formatter](https://www.freeformatter.com/css-beautifier.html#ad-output)
  * To ensure my HTML code was formatted correctly, I ran it through a formatter which can be found here: [HTML Code Formatter](https://www.freeformatter.com/html-formatter.html)
  * To ensure my JavaScript code was formatted correctly, I ran it through a formatter which can be found here: [JavaScript Code Formatter](https://beautifier.io/)
- * * To ensure my Python code was formatted correctly, I ran it through a PEP8 formatter which can be found here: 
+ * To ensure my Python code was formatted correctly, I ran it through a PEP8 formatter which can be found here: 
 
 ### Content 
 
-* For interesting maths puzzles I used [CUE MATH](https://www.cuemath.com/learn/fun-maths-questions/) and selected a few of their puzzles for my game.
+* For interesting maths puzzles I used [CUE MATH](https://www.cuemath.com/learn/fun-maths-questions/) and selected a few of their puzzles for my game. They were slightly adjusted to suit my theme.
 
 ### Code 
 
@@ -148,6 +130,4 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
 ### Acknowledgments 
 
-* I'd like to thank Brian Macharia for providing feedback, ideas and suggestions for improving my site.
-
-
+* I'd like to thank Brian Macharia for providing feedback, ideas and suggestions to improve my project.
