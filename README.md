@@ -1,6 +1,6 @@
 # Bank Heist 
 
-## What is Banl Heist?
+## What is Bank Heist?
 
 Bank Heist is a text-based adventure game. Your character (randomised upon starting the game) is going to rob a bank. Every decision you make has consequences and you'll need to use logic to navigate safely through the security and open the bank vault to win.
 
@@ -39,27 +39,48 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 
 * F1 - Loading the game 
 
+The game can be loaded via this link (LINK HEROKU HERE). After opening the game you will be greeted with this statement.
+
 * F2 - Character generator 
+
+Everytime you start the game your character is automatically generated. Three unique selections are made from an array to give the user a unique experience everytime they play.
 
 * F3 - Starting the game 
 
+After recieving your character, the user will need to press enter to start the game.
+
 * F4 - First decision 
+
+The first decision allows the user to pick which unique route they would like to use. This gives the game repeatability as a user can play again and again to keep trying alternative routes.
 
 * F5 - Random number generator 
 
+This challenge requires the user to input a number between 1 and 5 into the terminal. If that number is equal to the number randonmly generated then they will proceed otherwise they will lose the game. 
+
 * F6 - Keypad loop puzzle 
+
+The user is presented with three numbers which make up a three number combination. This while loop allows the user to keep guessing what the correct combination is and will allow the user to pass when answered correctly.
 
 * F7 - Word input 
 
+User will need to input a word to proceed on the route.
+
 * F8 - 1st Maths Puzzle 
+
+The user will be presented with a puzzle which requires some logically thinking. If the user gets the puzzle correct they will proceed otherwise they will lose the game.
 
 * F9 - 2nd Maths Puzzle 
 
+Similar to the first maths puzzle however this is more of a riddle than puzzle. The user will need to get it right first time to proceed and win.
+
 * F10 - Key date puzzle 
+
+The user will need to read and comprehend the content provided to ensure they know the password to proceed with the game. They will only get one attempt to get this right otherwise the game is over.
 
 ### Features which could be implemented in the future:
 
 * F11 - Easter Egg
+With additional time I would like to add an Easter Egg to the game. Many game players enjoy searching and hunting for easter eggs so I feel this addition would improve the value and playability of my game.
 
 * F12 - User Login
 I'd like to add the availbility for a user to create an account for the game. This would require a user to register a username and password which will then be stored in a google sheet and linked via an API. With this added, it would give the game scope to enhance the user experience and furthering the way users interact with the game.
