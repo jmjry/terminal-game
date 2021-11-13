@@ -235,7 +235,7 @@ while exitChoice != "EXIT":
 
     # Easter egg
     if playerChooses == "easteregg":
-        print("Image of egg will appear here")
+        print("Easter Egg")
         print("Congratulations.")
 
     exitChoice = input("Press return to play again or type EXIT!\n")
