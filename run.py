@@ -1,12 +1,15 @@
 import random
 
-exitChoice = "Nothing"
-while exitChoice != "EXIT":
-
-    """Import random is used
+"""Import random is used
     for challenges in the
     game with random numbers
     being generated.
+    """
+exitChoice = "Nothing"
+while exitChoice != "EXIT":
+    """exitChoice will allow
+    the user to exit the game at
+    anytime by typing EXIT
     """
     player = ["A Teacher", "A Golfer", "A Coder", "An Egg"]
     reason = ["Money", "Respect", "Revenge", "Fun"]
@@ -15,6 +18,7 @@ while exitChoice != "EXIT":
     print(
         f"{random.choice(player)} is robbing the bank for {random.choice(reason)} wearing {random.choice(outfit)}"
     )
+    # Randomly generates a character for the user
     input("Press enter to continue\n")
     print("You’re attempting to pull off a heist.")
     print("You’ll need to navigate the bank, facing multiple challenges.")
@@ -26,8 +30,8 @@ while exitChoice != "EXIT":
     print("3, Underground")
     print("4, Pose as an Employee")
 
-    # Allows the user to input their answer into the terminal
     playerChooses = input("Choose 1, 2, 3 or 4\n")
+    # Allows the user to choose their route in the game
 
     if playerChooses == "1":
         print("\nYou decide to take the back alley route as per your planning.")
@@ -48,10 +52,9 @@ while exitChoice != "EXIT":
             print("You need the correct code to pass this door.")
             print("This number is between 1 - 5")
 
-            # Converts the input into an int
             keypadChoice = int(input("Enter the combination\n"))
-            # Random number between 1 - 5 is generated
             if keypadChoice == random.randint(1, 5):
+                # Random number between 1 - 5 is generated
                 print("The keypad lights up green.")
                 print("You were correct, the vault door is unlocked.")
             else:
@@ -102,12 +105,12 @@ while exitChoice != "EXIT":
 
             keypadInput = None
             while True:
-                # User will have to keep answering until they get the answer
                 keypadInput = input("Enter combination:\n")
                 if keypadInput.isdigit() and (
                     int(keypadInput) > 268 and int(keypadInput) < 270
                 ):
                     keypadInput = int(keypadInput)
+                    # User will keep inputting until they get the correct answer
                     print("The keypad lights green.")
                     print("You were correct, the vault door is unlocked.")
                     break
@@ -149,7 +152,7 @@ while exitChoice != "EXIT":
                     print("The second digit is four times as big as the third")
                     print("while the first digit is three less than the second")
                     puzzleTwo = input("What is the number?\n")
-                    
+
                     if puzzleTwo == "141":
                         print("The keypad lights green")
                         print("The vault begins to unlock")
@@ -211,7 +214,9 @@ while exitChoice != "EXIT":
             elif passwordFinder == "find it":
                 print("You decide to find the password in the bank")
                 print("Going upstairs you locate the bank managers office")
-                print("Sneaking in, you look through the computer to find todays password")
+                print(
+                    "Sneaking in, you look through the computer to find todays password"
+                )
                 print("Searching......\n")
                 print("You found it! Today's password is eggman")
                 print("Are you ready to unlock the vault?")
