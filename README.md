@@ -1,8 +1,8 @@
-# Terminal Game
+# Bank Heist 
 
-## What is Terminal Game?
+## What is Banl Heist?
 
-NAME is a text-based adventure game. Your character (randomised upon starting the game) is going to rob a bank. Every decision you make has consequences and you'll need to use logic to navigate safely through the security and open the bank vault to win.
+Bank Heist is a text-based adventure game. Your character (randomised upon starting the game) is going to rob a bank. Every decision you make has consequences and you'll need to use logic to navigate safely through the security and open the bank vault to win.
 
 ## Planning process:
 
