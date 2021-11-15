@@ -19,7 +19,6 @@ while exitChoice != "EXIT":
         f"{random.choice(player)} is robbing the bank for {random.choice(reason)} wearing {random.choice(outfit)}"
     )
     # Randomly generates a character for the user
-    input("Press enter to continue\n")
     print("You’re attempting to pull off a heist.")
     print("You’ll need to navigate the bank, facing multiple challenges.")
     print("Reach the vault without alerting the guards, you’ll win.")
