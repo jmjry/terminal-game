@@ -144,10 +144,14 @@ Testing was undertaken at the start, during and after finishing my project. To c
  
 <img width="766" alt="Screenshot 2021-11-16 at 11 46 23" src="https://user-images.githubusercontent.com/86608354/141980068-1da07aa5-17d6-4a76-a5a1-04022ff9777e.png">
 
-* During my testing I noticed that some new lines were not working as intended - see screenshot below.
+* During my testing I noticed that the terminal clearing was not working as intended - see screenshot below.
 
 <img width="761" alt="FIX THIS" src="https://user-images.githubusercontent.com/86608354/141984716-c0c0d235-4974-4276-972f-0867284de50e.png">
 
+* I implemented a fix to this bug which now ensures the terminal clears correctly.
+
+![Screenshot 2021-11-16 at 15 37 33](https://user-images.githubusercontent.com/86608354/142016535-9dd73a25-a417-45d9-a259-45de13b7ef9c.png)
+![Screenshot 2021-11-16 at 15 39 33](https://user-images.githubusercontent.com/86608354/142016624-cb56157c-0fe3-4cd7-887d-c60b7ee0e6dc.png)
  
  ## Deployment via Heroku 
  
