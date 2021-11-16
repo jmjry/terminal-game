@@ -267,6 +267,7 @@ while exitChoice != "EXIT":
             print("Game Over!")
     else:
         print("You need to make a choice or the game will close.")
+
         playerChooses = input("Choose 1, 2, 3 or 4\n")
 
     # End of path 4
@@ -277,3 +278,4 @@ while exitChoice != "EXIT":
         print("Congratulations.")
 
     exitChoice = input("Press return to play again or type EXIT!\n")
+    clear_terminal()
