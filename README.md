@@ -37,23 +37,42 @@ The game can be loaded via [this link](https://terminal-game.herokuapp.com/). Af
 
 * F2 - Character generator 
 
-Everytime you start the game your character is automatically generated. Three unique selections are made from an array to give the user a unique experience everytime they play.
+Everytime you start the game your character is automatically generated. Three unique selections are made from an array to give the user a unique experience everytime they play. The user has 140 total combinations possible when starting the game. See some examples below.
+
+<img width="766" alt="Screenshot 2021-11-16 at 11 46 30" src="https://user-images.githubusercontent.com/86608354/141980343-7d2ca231-e546-4315-96bf-882738c7656d.png">
+<img width="766" alt="Screenshot 2021-11-16 at 11 46 38" src="https://user-images.githubusercontent.com/86608354/141980349-9b7b57ed-8c64-432c-b6b4-845beb3cf145.png">
+<img width="766" alt="Screenshot 2021-11-16 at 11 46 23" src="https://user-images.githubusercontent.com/86608354/141980359-37e51122-5962-43ac-9997-bac896f46bbd.png">
 
 * F3 - Starting the game 
 
 After recieving your character, the user will need to press enter to start the game.
 
+<img width="761" alt="Screenshot 2021-11-16 at 11 53 18" src="https://user-images.githubusercontent.com/86608354/141980748-5ac772fb-ff4d-4ca5-8f93-fd0bb168d9c1.png">
+
 * F4 - First decision 
 
 The first decision allows the user to pick which unique route they would like to use. This gives the game repeatability as a user can play again and again to keep trying alternative routes.
+
+<img width="761" alt="Screenshot 2021-11-16 at 11 53 56" src="https://user-images.githubusercontent.com/86608354/141980835-d2f4125b-f094-4082-9368-786ff01e808f.png">
+
 
 * F5 - Random number generator 
 
 This challenge requires the user to input a number between 1 and 5 into the terminal. If that number is equal to the number randonmly generated then they will proceed otherwise they will lose the game. 
 
+<img width="738" alt="Screenshot 2021-11-16 at 11 55 02" src="https://user-images.githubusercontent.com/86608354/141981038-f974dca2-9610-4a85-8f85-c932287adef6.png">
+<img width="738" alt="Screenshot 2021-11-16 at 11 55 12" src="https://user-images.githubusercontent.com/86608354/141981047-5452338a-3ee7-4afc-8f33-02e8d4ae6cff.png">
+<img width="738" alt="Screenshot 2021-11-16 at 11 55 23" src="https://user-images.githubusercontent.com/86608354/141981053-8e73ea5a-e389-44ab-8683-6ab731bf9108.png">
+
+
 * F6 - Keypad loop puzzle 
 
 The user is presented with three numbers which make up a three number combination. This while loop allows the user to keep guessing what the correct combination is and will allow the user to pass when answered correctly.
+
+<img width="738" alt="Screenshot 2021-11-16 at 11 56 40" src="https://user-images.githubusercontent.com/86608354/141981294-d31e0130-2265-444e-8771-afedc192d68f.png">
+<img width="738" alt="Screenshot 2021-11-16 at 11 56 48" src="https://user-images.githubusercontent.com/86608354/141981302-ba4462b9-24bb-464b-919f-e026eea92390.png">
+<img width="738" alt="Screenshot 2021-11-16 at 11 57 03" src="https://user-images.githubusercontent.com/86608354/141981309-3fd97497-6bef-4f79-b780-49262efa6f5d.png">
+
 
 * F7 - Word input 
 
