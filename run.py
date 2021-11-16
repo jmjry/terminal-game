@@ -60,7 +60,7 @@ while exitChoice != "EXIT":
     print("3, Underground")
     print("4, Pose as an Employee")
 
-    playerChooses = input("Choose 1, 2, 3 or 4\n")
+    playerChooses = input("Choose 1, 2, 3 or 4 \n")
     # Allows the user to choose their route in the game
 
     if playerChooses == "1":
