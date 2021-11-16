@@ -111,18 +111,15 @@ Testing was undertaken at the start, during and after finishing my project. To c
 ### Validator testing 
 
 * HTML 
-  * Testing results below [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html) 
+  * Testing results below [W3C validator](https://validator.w3.org/nu/#textarea) 
   
- * CSS
-   * No erros were found when passing through the official [Jigsaw validator](https://jigsaw.w3.org/css-validator/)  
-   
- * JavaScript
+<img width="1277" alt="Screenshot 2021-11-16 at 12 18 27" src="https://user-images.githubusercontent.com/86608354/141984130-bdf54d2d-f66e-4690-88a4-9880d64bec01.png">
+<img width="1277" alt="Screenshot 2021-11-16 at 12 19 07" src="https://user-images.githubusercontent.com/86608354/141984157-f5f1897b-0d0d-4879-97c2-8886575c788d.png">
 
 * PEP8 
- * No major errors were found when passing through the [PEP8 Online Check] (http://pep8online.com)
-
- ### Accessibility testing 
-
+ * No major errors were found when passing through the [PEP8 Online Check] (http://pep8online.com/checkresult)
+ 
+  <img width="1277" alt="Screenshot 2021-11-16 at 12 15 59" src="https://user-images.githubusercontent.com/86608354/141983814-a7c3f949-e508-42fa-a72d-8f89bba7c6d0.png"
 
  ### Known Bugs 
  
@@ -133,6 +130,10 @@ Testing was undertaken at the start, during and after finishing my project. To c
  * I implemented a fix to this bug which now ensures the introduction text fits correctly on the terminal.
  
 <img width="766" alt="Screenshot 2021-11-16 at 11 46 23" src="https://user-images.githubusercontent.com/86608354/141980068-1da07aa5-17d6-4a76-a5a1-04022ff9777e.png">
+
+* During my testing I noticed that some new lines were not working as intended - see screenshot below.
+
+<img width="761" alt="FIX THIS" src="https://user-images.githubusercontent.com/86608354/141984716-c0c0d235-4974-4276-972f-0867284de50e.png">
 
  
  ## Deployment via Heroku 
@@ -172,14 +173,12 @@ To deploy the site I used [Heroku](https://www.heroku.com/) a Cloud Application 
 <img width="1658" alt="Screenshot 2021-11-15 at 16 04 48" src="https://user-images.githubusercontent.com/86608354/141975195-52de0793-aad8-46ea-9524-39636f0d9847.png">
 
 
-
-
  ## Credits:
  
  * To ensure my CSS code was formatted correctly, I ran it through a formatter which can be found here: [CSS Code Formatter](https://www.freeformatter.com/css-beautifier.html#ad-output)
  * To ensure my HTML code was formatted correctly, I ran it through a formatter which can be found here: [HTML Code Formatter](https://www.freeformatter.com/html-formatter.html)
  * To ensure my JavaScript code was formatted correctly, I ran it through a formatter which can be found here: [JavaScript Code Formatter](https://beautifier.io/)
- * To ensure my Python code was formatted correctly, I ran it through a PEP8 formatter which can be found here: 
+ * To ensure my Python code was formatted correctly, I ran it through a PEP8 formatter which can be found here: [Python Formatter](https://codebeautify.org/python-formatter-beautifier) 
 
 ### Content 
 
