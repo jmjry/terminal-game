@@ -1,4 +1,6 @@
-# Bank Heist 
+# Terminal Game: Bank Heist 
+
+[Live Link](https://terminal-game.herokuapp.com/)
 
 ## What is Bank Heist?
 
@@ -23,6 +25,7 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 * [GitPod](https://www.gitpod.io/) was the version control used.
 * [GitHub](https://github.com/) is the repository used for project codes to be pushed from GitPod.
 * [Flowmap](https://www.flowmapp.com) was used to create user flowmaps during the design process of this project.
+* [Heroku](https://www.heroku.com/) was used to deplpoy the game to a live cloud based applicaiton.
 
 ## Features 
 
@@ -30,7 +33,7 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 
 * F1 - Loading the game 
 
-The game can be loaded via this link (LINK HEROKU HERE). After opening the game you will be greeted with this statement.
+The game can be loaded via [this link](https://terminal-game.herokuapp.com/). After opening the game you will be greeted with this statement.
 
 * F2 - Character generator 
 
