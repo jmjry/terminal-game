@@ -121,6 +121,8 @@ Testing was undertaken at the start, during and after finishing my project. To c
 * Each feature was tested. If the feature responded correctly then it was marked green on my spreadsheet.
 * All of the features were compared against the original idea and I ensured they met the crtieria I set out with. 
 
+<img width="699" alt="Screenshot 2021-11-16 at 22 28 06" src="https://user-images.githubusercontent.com/86608354/142076412-aef9e015-6f8c-4d25-982b-92070f13b44a.png">
+
 ### Validator testing 
 
 * HTML 
