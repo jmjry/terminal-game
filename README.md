@@ -1,4 +1,6 @@
-# Bank Heist 
+# Terminal Game: Bank Heist 
+
+[Live Link](https://terminal-game.herokuapp.com/)
 
 ## What is Bank Heist?
 
@@ -23,6 +25,7 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 * [GitPod](https://www.gitpod.io/) was the version control used.
 * [GitHub](https://github.com/) is the repository used for project codes to be pushed from GitPod.
 * [Flowmap](https://www.flowmapp.com) was used to create user flowmaps during the design process of this project.
+* [Heroku](https://www.heroku.com/) was used to deplpoy the game to a live cloud based applicaiton.
 
 ## Features 
 
@@ -30,7 +33,7 @@ For this project I will be using Python, HTML, CSS and some JavaScript.
 
 * F1 - Loading the game 
 
-The game can be loaded via this link (LINK HEROKU HERE). After opening the game you will be greeted with this statement.
+The game can be loaded via [this link](https://terminal-game.herokuapp.com/). After opening the game you will be greeted with this statement.
 
 * F2 - Character generator 
 
@@ -107,8 +110,42 @@ Testing was undertaken at the start, during and after finishing my project. To c
  * 
  
  ## Deployment via Heroku 
+ 
+ [Live Link](https://terminal-game.herokuapp.com/)
 
 ### How was this site deployed? 
+
+To deploy the site I used [Heroku](https://www.heroku.com/) a Cloud Application Platform. 
+
+* To start, I named my app and created the profile.
+
+<img width="1664" alt="Screenshot 2021-11-15 at 16 02 32" src="https://user-images.githubusercontent.com/86608354/141974595-cb54c170-3579-4be1-b27c-5f128bac6e64.png">
+
+* Next I set my Config Vars to ensure that the app would deploy as anticipated.
+
+<img width="1658" alt="Screenshot 2021-11-15 at 16 02 46" src="https://user-images.githubusercontent.com/86608354/141974692-7c83f672-d466-4fdf-8d13-85d2d8cc76d8.png">
+
+* Following the Config Vars, I added the correct buildpacks in order. For this project, only the Python and nodeJS were required.
+
+<img width="1658" alt="Screenshot 2021-11-15 at 16 02 58" src="https://user-images.githubusercontent.com/86608354/141974866-84322abc-ac79-4522-8104-1f734b01dfae.png">
+
+* To connect with my repository, I needed to connect my GitHub. 
+
+<img width="1658" alt="Screenshot 2021-11-15 at 16 03 19" src="https://user-images.githubusercontent.com/86608354/141974947-89e0d43c-2214-4871-b68c-325e74b3bce9.png">
+
+* After connecting to my GitHub, I could link the repository.
+
+<img width="1658" alt="Screenshot 2021-11-15 at 16 03 26" src="https://user-images.githubusercontent.com/86608354/141975018-b1857711-0052-4e5c-a6a7-9665eb87420f.png">
+
+* Then I needed to select the branch to deploy from.
+
+<img width="1658" alt="Screenshot 2021-11-15 at 16 03 36" src="https://user-images.githubusercontent.com/86608354/141975136-4505380e-cd17-45b5-a122-11c7fedc810d.png">
+
+* Lastly, I deployed the project succesfully.
+
+<img width="1658" alt="Screenshot 2021-11-15 at 16 04 48" src="https://user-images.githubusercontent.com/86608354/141975195-52de0793-aad8-46ea-9524-39636f0d9847.png">
+
+
 
 
  ## Credits:
