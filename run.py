@@ -16,7 +16,7 @@ while exitChoice != "EXIT":
     outfit = ["Crocs, just crocs", "a Balaclava", "Regular Clothes", "an Egg Outfit", "your Uniform"]
 
     print(
-        f"You're dressed as {random.choice(player)}. You're robbing the bank because you want {random.choice(reason)}. You're doing this wearing {random.choice(outfit)}"
+        f"You're dressed as {random.choice(player)}\n" f"You're robbing the bank because you want {random.choice(reason)}\n" f"You're doing this wearing {random.choice(outfit)}\n"
     )
     # Randomly generates a character for the user
     input("Press enter to continue\n")
