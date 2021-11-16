@@ -5,7 +5,7 @@ import random
     game with random numbers
     being generated.
     """
-exitChoice = "Nothing"
+exitChoice = ""
 while exitChoice != "EXIT":
     """exitChoice will allow
     the user to exit the game at
