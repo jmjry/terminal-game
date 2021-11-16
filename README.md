@@ -196,7 +196,7 @@ To deploy the site I used [Heroku](https://www.heroku.com/) a Cloud Application 
  * To ensure my HTML code was formatted correctly, I ran it through a formatter which can be found here: [HTML Code Formatter](https://www.freeformatter.com/html-formatter.html)
  * To ensure my JavaScript code was formatted correctly, I ran it through a formatter which can be found here: [JavaScript Code Formatter](https://beautifier.io/)
  * To ensure my Python code was formatted correctly, I ran it through a PEP8 formatter which can be found here: [Python Formatter](https://codebeautify.org/python-formatter-beautifier) 
-
+ 
 ### Content 
 
 * For interesting maths puzzles I used [CUE MATH](https://www.cuemath.com/learn/fun-maths-questions/) and selected a few of their puzzles for my game. They were slightly adjusted to suit my theme.
@@ -206,6 +206,8 @@ To deploy the site I used [Heroku](https://www.heroku.com/) a Cloud Application 
 * As a go to reasource hub I used [W3S Schools](https://www.w3schools.com/default.asp).
 * To create my responsive picture examples I used [ami.responsive](http://ami.responsivedesign.is).
 * When stuck on a development issue, I checked [Stackoverflow](https://stackoverflow.com) to see if other developers had the same problems.
+* When looking to create a function that clears my terminal, [Matt Boden](https://github.com/MattBCoding) reccomended the use of [this reasource.](http://www.coding4you.at/inf_tag/beginners_python_cheat_sheet.pdf)
+
 
 ### Acknowledgments 
 
