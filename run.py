@@ -273,5 +273,5 @@ while exitChoice != "EXIT":
         print("Easter Egg")
         print("Congratulations.")
 
-    exitChoice = input("Invalid answer received, press enter to play again or type EXIT!\n")
+    exitChoice = input("Press enter to play again or type EXIT!\n")
     clear_terminal()
