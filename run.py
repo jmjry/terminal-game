@@ -12,7 +12,7 @@ while exitChoice != "EXIT":
     anytime by typing EXIT
     """
     player = ["a Teacher", "a Golfer", "a Coder", "an Egg", "a Civilian", "a Bank Guard", "Aquaman"]
-    reason = ["Money", "Respect", "Revenge", "Fun",]
+    reason = ["Money", "Respect", "Revenge", "Fun"]
     outfit = ["Crocs, just crocs", "a Balaclava", "Regular Clothes", "an Egg Outfit", "your Uniform"]
 
     print(
