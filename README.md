@@ -107,7 +107,14 @@ Testing was undertaken at the start, during and after finishing my project. To c
 
  ### Known Bugs 
  
- * 
+ * After deploying to Heroku, I noticed that some text would be cut off by the terminal as seen below.
+  
+ <img width="766" alt="Screenshot 2021-11-16 at 11 40 33" src="https://user-images.githubusercontent.com/86608354/141979987-2a36db64-4789-4eb5-91ce-0f63da40b614.png">
+ 
+ * I implemented a fix to this bug which now ensures the introduction text fits correctly on the terminal.
+ 
+<img width="766" alt="Screenshot 2021-11-16 at 11 46 23" src="https://user-images.githubusercontent.com/86608354/141980068-1da07aa5-17d6-4a76-a5a1-04022ff9777e.png">
+
  
  ## Deployment via Heroku 
  
