@@ -13,8 +13,8 @@ def clear_terminal():
     Clears the terminal window prior to new content.
     Original code from
     http://www.coding4you.at/inf_tag/beginners_python_cheat_sheet.pdf
-    Recommended to me by Goran Sigeskog
-    https://github.com/gorsig
+    Recommended to me by Matt Bodden
+    https://github.com/MattBCoding
     """
     os.system('cls' if os.name == 'nt' else 'clear')
 
