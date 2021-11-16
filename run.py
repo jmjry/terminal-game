@@ -235,6 +235,9 @@ while exitChoice != "EXIT":
             print("The guard grabs you")
             print("You got the answer wrong")
             print("Game Over!")
+    else:
+        print("You need to make a choice, 1, 2, 3 or 4.")
+        playerChooses = input("Choose 1, 2, 3 or 4\n")
 
     # End of path 4
 
