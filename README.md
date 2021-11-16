@@ -17,9 +17,13 @@ Bank Heist is a text-based adventure game. Your character (randomised upon start
 * My original design path remains however it became apparent that the game could be navigated to completion very quickly. For this reason, I decided to add additional paths to each of the routes.
 * As the design path changed additional content was required to furfill this.
 
+### Future Versions:
+
+* In the future I would like to increase the user journey with a minimum of 10 decisions within each path. Alternatively I would like to explore creating one long path with multiple different branches.
+
 ## Technologies: 
 
-For this project I will be using Python, HTML, CSS and some JavaScript.
+For this project I will be using Python, HTML and some JavaScript.
 
 ### Frameworks, Libraries & Programs: 
 * [GitPod](https://www.gitpod.io/) was the version control used.
