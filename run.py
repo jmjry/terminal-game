@@ -16,7 +16,7 @@ def clear_terminal():
     Recommended to me by Matt Bodden
     https://github.com/MattBCoding
     """
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system("cls" if os.name == "nt" else "clear")
 
 
 exitChoice = ""
@@ -173,14 +173,6 @@ while exitChoice != "EXIT":
                 print("4=4")
                 print("5=4")
                 puzzleOne = input("Then 6 = ?\n")
-            
-            elif keypadCrack == "smash":
-                print("As the brave person you are")
-                print("you decide to smash the keypad")
-                print("smashing.......")
-                print("...........")
-                print("the guards hear the smashing")
-                print("game over, you got caught.... obviously.")
 
                 if puzzleOne == "3":
                     print("The keypad lights green")
@@ -198,9 +190,18 @@ while exitChoice != "EXIT":
                     else:
                         print("You got it wrong, the keypad lights red")
                         print("The guards come rushing in and you're captured!")
-                else:
-                    print("You got it wrong, the keypad lights red")
-                    print("The guards come rushing in and you're captured!")
+
+            elif keypadCrack == "smash":
+                print("As the brave person you are")
+                print("you decide to smash the keypad")
+                print("smashing.......")
+                print("...........")
+                print("the guards hear the smashing")
+                print("game over, you got caught.... obviously.")
+
+            else:
+                print("You got it wrong, the keypad lights red")
+                print("The guards come rushing in and you're captured!")
 
         elif groundChoice == "hammer":
             print("Obviously you choose to hammer the wall")
