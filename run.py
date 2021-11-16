@@ -11,12 +11,12 @@ while exitChoice != "EXIT":
     the user to exit the game at
     anytime by typing EXIT
     """
-    player = ["A Teacher", "A Golfer", "A Coder", "An Egg"]
-    reason = ["Money", "Respect", "Revenge", "Fun"]
-    outfit = ["Naked", "All Black", "Regular Clothes", "Egg Outfit"]
+    player = ["a Teacher", "a Golfer", "a Coder", "an Egg", "a Civilian", "a Bank Guard", "Aquaman"]
+    reason = ["Money", "Respect", "Revenge", "Fun",]
+    outfit = ["Crocs, just crocs", "a Balaclava", "Regular Clothes", "an Egg Outfit", "your Uniform"]
 
     print(
-        f"{random.choice(player)} is robbing the bank for {random.choice(reason)} wearing {random.choice(outfit)}"
+        f"You're dressed as {random.choice(player)}. You're robbing the bank because you want {random.choice(reason)}. You're doing this wearing {random.choice(outfit)}"
     )
     # Randomly generates a character for the user
     input("Press enter to continue\n")
