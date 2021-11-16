@@ -1,10 +1,24 @@
 import random
+import os
 
 """Import random is used
     for challenges in the
     game with random numbers
     being generated.
     """
+
+
+def clear_terminal():
+    """
+    Clears the terminal window prior to new content.
+    Original code from
+    http://www.coding4you.at/inf_tag/beginners_python_cheat_sheet.pdf
+    Recommended to me by Goran Sigeskog
+    https://github.com/gorsig
+    """
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 exitChoice = ""
 while exitChoice != "EXIT":
     """exitChoice will allow
