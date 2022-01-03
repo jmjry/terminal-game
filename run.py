@@ -18,6 +18,18 @@ def clear_terminal():
     """
     os.system("cls" if os.name == "nt" else "clear")
 
+""" 
+Creating a function that will ensure game ends when user requests 
+
+    user_input = "exti"
+    if "exit" not in user_input or "hello" not in user_input:
+    pass
+    # code for user to input again (then just run this in a function or something to call it many time
+    if user_input == "exit" or user_input == "hello":
+    print("hello, exitting")
+
+    """
+
 
 exitChoice = ""
 while exitChoice != "EXIT":
@@ -44,7 +56,7 @@ while exitChoice != "EXIT":
     ]
 
     print(
-        f"You're dressed as {random.choice(player)}\n"
+        f"You're {random.choice(player)}\n"
         f"You're robbing the bank because you want {random.choice(reason)}\n"
         f"You're doing this wearing {random.choice(outfit)}\n"
     )
