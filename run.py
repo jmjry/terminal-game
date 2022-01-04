@@ -61,7 +61,14 @@ while exitChoice != "EXIT":
         f"You're doing this wearing {random.choice(outfit)}\n"
     )
     # Randomly generates a character for the user
-    input("Press enter to continue\n")
+    pressed_enter = False   
+    while pressed_enter == False:
+        user_input = input("Press enter to continue\n")
+        if user_input != '':
+            print('You must press enter to continue')
+        else:
+           pressed_enter = True 
+           
     print("You’re attempting to pull off a heist.")
     print("You’ll need to navigate the bank, facing multiple challenges.")
     print("Reach the vault without alerting the guards, you’ll win.")
@@ -295,4 +302,4 @@ while exitChoice != "EXIT":
         print("Congratulations.")
 
     exitChoice = input("Press enter to play again or type EXIT!\n")
-    clear_terminal()
+clear_terminal()
