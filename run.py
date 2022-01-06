@@ -60,7 +60,8 @@ while exit_choice != "EXIT":
         f"You're doing this wearing {random.choice(outfit)}\n"
     )
     # Randomly generates a character for the user
-    check_input("Press enter to continue\n", [""], "You must press enter to continue")
+    check_input("Press enter to continue\n",
+                [""], "You must press enter to continue")
 
     print("You’re attempting to pull off a heist.")
     print("You’ll need to navigate the bank, facing multiple challenges.")
@@ -73,13 +74,16 @@ while exit_choice != "EXIT":
     print("4, Pose as an Employee")
 
     player_chooses = check_input(
-        "Choose 1, 2, 3 or 4.\n", ["1", "2", "3", "4"], "You must choose 1, 2, 3 or 4"
+        "Choose 1, 2, 3 or 4.\n", ["1", "2", "3", "4"],
+        "You must choose 1, 2, 3 or 4"
     )
 
     # Allows the user to choose their route in the game
 
     if player_chooses == "1":
-        print("\nYou decide to take the back alley route as per your planning.")
+        print(
+            "\nYou decide to take the back alley route as per your planning."
+            )
         print("There is a weak wall which leads to the underground tunnel")
         print("To get to the vault you need to reach the underground")
         print("Using the floor plans you acquired you know the route")
@@ -163,7 +167,6 @@ while exit_choice != "EXIT":
                     int(keypad_input) > 268 and int(keypad_input) < 270
                 ):
                     keypad_input = int(keypad_input)
-                    # User will keep inputting until they get the correct answer
                     print("The keypad lights green.")
                     print("You were correct, the vault door is unlocked.")
                     print("Congratulations, you have broke into the vault.")
@@ -218,10 +221,11 @@ while exit_choice != "EXIT":
                     print("Next question\n")
                     print("There is a three-digit number")
                     print("The second digit is four times as big as the third")
-                    print("while the first digit is three less than the second")
-                    puzzle_two = check_input(
-                        "What is the number?\n", ["141"], "You got it wrong, try again."
-                    )
+                    print(
+                        "while the first digit is three less than the second"
+                        )
+                    puzzle_two = check_input("What is the number?\n", ["141"],
+                                             "You got it wrong, try again.")
 
                     if puzzle_two == "141":
                         print("The keypad lights green")
@@ -229,7 +233,9 @@ while exit_choice != "EXIT":
                         print("You've broke into the bank, congratulations!")
                     else:
                         print("You got it wrong, the keypad lights red")
-                        print("The guards come rushing in and you're captured!")
+                        print(
+                            "The guards come rushing in and you're captured!"
+                            )
 
             elif keypad_crack == "smash":
                 print("As the brave person you are")
@@ -283,13 +289,15 @@ while exit_choice != "EXIT":
                 print("Searching..... \n")
                 print("Got it, now it's time to break in")
                 print("You've just realised the time, 12pm. Lunchbreak.")
-                print("Ten guards enter the lockeroom as you crack the locker.")
+                print(
+                    "Ten guards enter the lockeroom as you crack the locker."
+                    )
                 print("Game Over, you got caught!")
             elif password_finder == "guess it":
                 print("You decide to take a wild guess, genius!")
                 password_answer = check_input(
-                    "What is the password?\n", ["eggman"], "Wrong answer, try again."
-                )
+                    "What is the password?\n",
+                    ["eggman"], "Wrong answer, try again.")
                 if password_answer == "eggman":
                     print("The keypad lights green, you actually got it?")
                     print("You now have access to the vault!")
@@ -301,15 +309,13 @@ while exit_choice != "EXIT":
             elif password_finder == "find it":
                 print("You decide to find the password in the bank")
                 print("Going upstairs you locate the bank managers office")
-                print(
-                    "Sneaking in, you look through the computer to find todays password"
-                )
+                print("Sneaking in, you look for the password")
                 print("Searching......\n")
                 print("You found it! Today's password is eggman")
                 print("Are you ready to unlock the vault?")
-                password_answer = check_input(
-                    "What is the password?\n", ["eggman"], "Wrong answer, try again."
-                )
+                password_answer = check_input("What is the password?\n",
+                                              ["eggman"],
+                                              "Wrong answer, try again.")
                 if password_answer == "eggman":
                     print("The keypad lights green, the vault door unlocks.")
                     print("You now have access to the vault!")
