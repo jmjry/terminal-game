@@ -18,21 +18,20 @@ def clear_terminal():
     """
     os.system("cls" if os.name == "nt" else "clear")
 
-""" 
-Creating a function that will ensure game ends when user requests 
 
-    user_input = "exti"
-    if "exit" not in user_input or "hello" not in user_input:
-    pass
-    # code for user to input again (then just run this in a function or something to call it many time
-    if user_input == "exit" or user_input == "hello":
-    print("hello, exitting")
+def check_input(prompt, valid_inputs, error_message):
+    input_valid = False
+    while input_valid == False:
+        user_input = input(prompt)
+        if user_input not in valid_inputs:
+            print(error_message)
+        else:
+            input_valid = True
+    return user_input
 
-    """
 
-
-exitChoice = ""
-while exitChoice != "EXIT":
+exit_choice = ""
+while exit_choice != "EXIT":
     """exitChoice will allow
     the user to exit the game at
     anytime by typing EXIT
@@ -61,14 +60,9 @@ while exitChoice != "EXIT":
         f"You're doing this wearing {random.choice(outfit)}\n"
     )
     # Randomly generates a character for the user
-    pressed_enter = False   
-    while pressed_enter == False:
-        user_input = input("Press enter to continue\n")
-        if user_input != '':
-            print('You must press enter to continue')
-        else:
-           pressed_enter = True 
-           
+    check_input("Press enter to continue\n", [
+                ''], "You must press enter to continue")
+
     print("You’re attempting to pull off a heist.")
     print("You’ll need to navigate the bank, facing multiple challenges.")
     print("Reach the vault without alerting the guards, you’ll win.")
@@ -79,10 +73,12 @@ while exitChoice != "EXIT":
     print("3, Underground")
     print("4, Pose as an Employee")
 
-    playerChooses = input("Choose 1, 2, 3 or 4.\n")
+    player_chooses = check_input("Choose 1, 2, 3 or 4.\n", [
+                                 "1", "2", "3", "4"], "You must choose 1, 2, 3 or 4")
+
     # Allows the user to choose their route in the game
 
-    if playerChooses == "1":
+    if player_chooses == "1":
         print("\nYou decide to take the back alley route as per your planning.")
         print("There is a weak wall which leads to the underground tunnel")
         print("To get to the vault you need to reach the underground")
@@ -91,9 +87,10 @@ while exitChoice != "EXIT":
         print("1. Enter the door")
         print("2. Wait and see if anyone exits")
 
-        alleyChoice = input("Choose 1 or 2\n")
+        alley_choice = check_input(
+            "Choose 1 or 2\n", ['1', '2'], "You must choose 1 or 2")
 
-        if alleyChoice == "1":
+        if alley_choice == "1":
             print("You enter the door without checking for guards")
             print("You’re lucky, no one is there.")
             print("You continue your journey to the vault and reach a keypad")
@@ -101,8 +98,8 @@ while exitChoice != "EXIT":
             print("You need the correct code to pass this door.")
             print("This number is between 1 - 5")
 
-            keypadChoice = int(input("Enter the combination\n"))
-            if keypadChoice == random.randint(1, 5):
+            keypad_choice = int(input("Enter the combination\n"))
+            if keypad_choice == random.randint(1, 5):
                 # Random number between 1 - 5 is generated
                 print("The keypad lights up green.")
                 print("You were correct, the vault door is unlocked.")
@@ -111,7 +108,7 @@ while exitChoice != "EXIT":
                 print("The guards are alerted.")
                 print("Game over!")
 
-        elif alleyChoice == "2":
+        elif alley_choice == "2":
             print("You wait to see if anyone exits the door.")
             print("You've been reported as entering the bank")
             print("The guards check and find your access hole.")
@@ -123,7 +120,7 @@ while exitChoice != "EXIT":
 
     # End of path 1
 
-    elif playerChooses == "2":
+    elif player_chooses == "2":
         print("You decide to use the roof access to enter the bank")
         print("After reaching the roof, you open the vent and enter the bank.")
         print("To get to the vault you need to reach the underground")
@@ -132,9 +129,9 @@ while exitChoice != "EXIT":
         print("1. Continue down the stairs")
         print("2. Use the lift shaft")
 
-        roofChoice = input("Choose 1 or 2\n")
+        roof_choice = input("Choose 1 or 2\n")
 
-        if roofChoice == "1":
+        if roof_choice == "1":
             print("You decide to continue down the staircase.")
             print("Distant talking can be heard")
             print("Two guards are waiting at the bottom, you run.")
@@ -142,7 +139,7 @@ while exitChoice != "EXIT":
             print("You’re caught by the guards and taken away.")
             print("Game Over!")
 
-        elif roofChoice == "2":
+        elif roof_choice == "2":
             print("Using the rope you packed, you make a knot,")
             print("you descend down the shaft.")
             print("On the wall you see three numbers")
@@ -152,13 +149,13 @@ while exitChoice != "EXIT":
             print("You head towards the vault and approach a keypad")
             print("You'll need to input the correct 3 digit code to enter")
 
-            keypadInput = None
+            keypad_input = None
             while True:
-                keypadInput = input("Enter combination:\n")
-                if keypadInput.isdigit() and (
-                    int(keypadInput) > 268 and int(keypadInput) < 270
+                keypad_input = input("Enter combination:\n")
+                if keypad_input.isdigit() and (
+                    int(keypad_input) > 268 and int(keypad_input) < 270
                 ):
-                    keypadInput = int(keypadInput)
+                    keypad_input = int(keypad_input)
                     # User will keep inputting until they get the correct answer
                     print("The keypad lights green.")
                     print("You were correct, the vault door is unlocked.")
@@ -169,40 +166,40 @@ while exitChoice != "EXIT":
 
     # End of path 2
 
-    elif playerChooses == "3":
+    elif player_chooses == "3":
         print("You decide to use an access tunnel directly into the vault")
         print("Using the underground access, you reach the wall")
         print("Do you use a silent drill or sledgehammer?")
-        groundChoice = input("Choose drill or hammer\n")
+        ground_choice = input("Choose drill or hammer\n")
 
-        if groundChoice == "drill":
+        if ground_choice == "drill":
             print("Using the silent drill you begin drilling")
             print("Slowly you create a hole wide enough to fit through")
             print("You enter the hole facing the vault")
             print("To enter the vault you'll need to crack the keypad")
-            keypadCrack = input("\nChoose to hack or smash the keypad\n")
+            keypad_crack = input("\nChoose to hack or smash the keypad\n")
 
-            if keypadCrack == "hack":
+            if keypad_crack == "hack":
                 print("You decide to hack the keypad")
                 print("You'll need to solve multiple puzzles")
-                puzzleStart = input("Press enter on the keypad to start.\n")
+                puzzle_start = input("Press enter on the keypad to start.\n")
                 print("If 1=3")
                 print("2=3")
                 print("3=5")
                 print("4=4")
                 print("5=4")
-                puzzleOne = input("Then 6 = ?\n")
+                puzzle_one = input("Then 6 = ?\n")
 
-                if puzzleOne == "3":
+                if puzzle_one == "3":
                     print("The keypad lights green")
                     print("You got the first puzzle right!")
                     print("Next question\n")
                     print("There is a three-digit number")
                     print("The second digit is four times as big as the third")
                     print("while the first digit is three less than the second")
-                    puzzleTwo = input("What is the number?\n")
+                    puzzle_two = input("What is the number?\n")
 
-                    if puzzleTwo == "141":
+                    if puzzle_two == "141":
                         print("The keypad lights green")
                         print("The vault begins to unlock")
                         print("You've broke into the bank, congratulations!")
@@ -210,7 +207,7 @@ while exitChoice != "EXIT":
                         print("You got it wrong, the keypad lights red")
                         print("The guards come rushing in and you're captured!")
 
-            elif keypadCrack == "smash":
+            elif keypad_crack == "smash":
                 print("As the brave person you are")
                 print("you decide to smash the keypad")
                 print("smashing.......")
@@ -222,7 +219,7 @@ while exitChoice != "EXIT":
                 print("You got it wrong, the keypad lights red")
                 print("The guards come rushing in and you're captured!")
 
-        elif groundChoice == "hammer":
+        elif ground_choice == "hammer":
             print("Obviously you choose to hammer the wall")
             print("The noise starts to gain you unwanted attention..")
             print("Guards are alerted.")
@@ -232,7 +229,7 @@ while exitChoice != "EXIT":
 
     # End of path 3
 
-    elif playerChooses == "4":
+    elif player_chooses == "4":
         print("You suit up in your bank uniform")
         print("ID Number 2914")
         print("Name, Danial B Cooper")
@@ -240,16 +237,16 @@ while exitChoice != "EXIT":
         print("Walking confidently into the bank towards the security")
         print("You're asked a question by the security")
         print("What is the date of birth on your ID card?")
-        employeeChoice = input("Enter your answer:\n")
+        employee_choice = input("Enter your answer:\n")
 
-        if employeeChoice == "24/11/1971":
+        if employee_choice == "24/11/1971":
             print("The guard nods and you go through.")
             print("You walk down the stairs towards the vault.")
             print("You'll need todays password to enter the vault.")
             print("You could either steal it, guess it or find it.")
-            passwordFinder = input("How will you get the password?\n")
+            password_finder = input("How will you get the password?\n")
 
-            if passwordFinder == "steal it":
+            if password_finder == "steal it":
                 print("You decide to steal it from a guard")
                 print("You enter the locker rooms")
                 print("Now you need to find the right locker")
@@ -258,10 +255,10 @@ while exitChoice != "EXIT":
                 print("You've just realised the time, 12pm. Lunchbreak.")
                 print("Ten guards enter the lockeroom as you crack the locker.")
                 print("Game Over, you got caught!")
-            elif passwordFinder == "guess it":
+            elif password_finder == "guess it":
                 print("You decide to take a wild guess, genius!")
-                passwordAnswer = input("What is the password?\n")
-                if passwordAnswer == "eggman":
+                password_answer = input("What is the password?\n")
+                if password_answer == "eggman":
                     print("The keypad lights green, you actually got it?")
                     print("You now have access to the vault!")
                     print("Congratulations, you won!")
@@ -269,7 +266,7 @@ while exitChoice != "EXIT":
                     print("The keypad lights red and the alarms start rining.")
                     print("Maybe guessing wasn't the best idea...")
                     print("Game over, you lost!")
-            elif passwordFinder == "find it":
+            elif password_finder == "find it":
                 print("You decide to find the password in the bank")
                 print("Going upstairs you locate the bank managers office")
                 print(
@@ -278,8 +275,8 @@ while exitChoice != "EXIT":
                 print("Searching......\n")
                 print("You found it! Today's password is eggman")
                 print("Are you ready to unlock the vault?")
-                passwordAnswer = input("What is the password?\n")
-                if passwordAnswer == "eggman":
+                password_answer = input("What is the password?\n")
+                if password_answer == "eggman":
                     print("The keypad lights green, the vault door unlocks.")
                     print("You now have access to the vault!")
                     print("Congratulations, you won!")
@@ -297,9 +294,9 @@ while exitChoice != "EXIT":
     # End of path 4
 
     # Easter egg
-    if playerChooses == "easteregg":
+    if player_chooses == "easteregg":
         print("Easter Egg")
         print("Congratulations.")
 
-    exitChoice = input("Press enter to play again or type EXIT!\n")
+    exit_choice = input("Press enter to play again or type EXIT!\n")
 clear_terminal()
