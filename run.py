@@ -98,7 +98,8 @@ while exit_choice != "EXIT":
             print("You need the correct code to pass this door.")
             print("This number is between 1 - 5")
 
-            keypad_choice = int(input("Enter the combination\n"))
+            keypad_choice = check_input(
+                "Enter the combination\n", ['1', '2', '3', '4', '5'], "You must pick between 1 to 5")
             if keypad_choice == random.randint(1, 5):
                 # Random number between 1 - 5 is generated
                 print("The keypad lights up green.")
@@ -129,7 +130,7 @@ while exit_choice != "EXIT":
         print("1. Continue down the stairs")
         print("2. Use the lift shaft")
 
-        roof_choice = input("Choose 1 or 2\n")
+        roof_choice = check_input("Choose 1 or 2\n", ['1', '2'], "Invalid input, pick 1 or 2")
 
         if roof_choice == "1":
             print("You decide to continue down the staircase.")
@@ -159,6 +160,7 @@ while exit_choice != "EXIT":
                     # User will keep inputting until they get the correct answer
                     print("The keypad lights green.")
                     print("You were correct, the vault door is unlocked.")
+                    print("Congratulations, you have broke into the vault.")
                     break
                 else:
                     print("Input was not valid, try again. \n")
@@ -170,25 +172,25 @@ while exit_choice != "EXIT":
         print("You decide to use an access tunnel directly into the vault")
         print("Using the underground access, you reach the wall")
         print("Do you use a silent drill or sledgehammer?")
-        ground_choice = input("Choose drill or hammer\n")
+        ground_choice = check_input("Choose drill or hammer\n", ["drill", "hammer"], "Pick either drill or hammer")
 
         if ground_choice == "drill":
             print("Using the silent drill you begin drilling")
             print("Slowly you create a hole wide enough to fit through")
             print("You enter the hole facing the vault")
             print("To enter the vault you'll need to crack the keypad")
-            keypad_crack = input("\nChoose to hack or smash the keypad\n")
+            keypad_crack = check_input("\nChoose to hack or smash the keypad\n", ["hack", "smash"], "You need to pick either smash or hack.")
 
             if keypad_crack == "hack":
                 print("You decide to hack the keypad")
                 print("You'll need to solve multiple puzzles")
-                puzzle_start = input("Press enter on the keypad to start.\n")
+                puzzle_start = check_input("Press enter on the keypad to start.\n", [''], "Wrong input, press enter to begin.")
                 print("If 1=3")
                 print("2=3")
                 print("3=5")
                 print("4=4")
                 print("5=4")
-                puzzle_one = input("Then 6 = ?\n")
+                puzzle_one = check_input("Then 6 = ?\n", ["3"], "You got it wrong, try again.")
 
                 if puzzle_one == "3":
                     print("The keypad lights green")
@@ -197,7 +199,7 @@ while exit_choice != "EXIT":
                     print("There is a three-digit number")
                     print("The second digit is four times as big as the third")
                     print("while the first digit is three less than the second")
-                    puzzle_two = input("What is the number?\n")
+                    puzzle_two = check_input("What is the number?\n", ["141"], "You got it wrong, try again.")
 
                     if puzzle_two == "141":
                         print("The keypad lights green")
@@ -237,14 +239,14 @@ while exit_choice != "EXIT":
         print("Walking confidently into the bank towards the security")
         print("You're asked a question by the security")
         print("What is the date of birth on your ID card?")
-        employee_choice = input("Enter your answer:\n")
+        employee_choice = check_input("Enter your answer:\n", ["24/11/1971"], "Wrong answer, try again.")
 
         if employee_choice == "24/11/1971":
             print("The guard nods and you go through.")
             print("You walk down the stairs towards the vault.")
             print("You'll need todays password to enter the vault.")
             print("You could either steal it, guess it or find it.")
-            password_finder = input("How will you get the password?\n")
+            password_finder = check_input("How will you get the password?\n", ["steal it", "guess it", "eggman", "find it"], "Invalid input, try again.")
 
             if password_finder == "steal it":
                 print("You decide to steal it from a guard")
@@ -257,7 +259,7 @@ while exit_choice != "EXIT":
                 print("Game Over, you got caught!")
             elif password_finder == "guess it":
                 print("You decide to take a wild guess, genius!")
-                password_answer = input("What is the password?\n")
+                password_answer = check_input("What is the password?\n", ["eggman"], "Wrong answer, try again.")
                 if password_answer == "eggman":
                     print("The keypad lights green, you actually got it?")
                     print("You now have access to the vault!")
@@ -275,7 +277,7 @@ while exit_choice != "EXIT":
                 print("Searching......\n")
                 print("You found it! Today's password is eggman")
                 print("Are you ready to unlock the vault?")
-                password_answer = input("What is the password?\n")
+                password_answer = check_input("What is the password?\n", ["eggman"], "Wrong answer, try again." )
                 if password_answer == "eggman":
                     print("The keypad lights green, the vault door unlocks.")
                     print("You now have access to the vault!")
