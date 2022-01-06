@@ -30,6 +30,8 @@ For this project I will be using Python, HTML and some JavaScript.
 * [GitHub](https://github.com/) is the repository used for project codes to be pushed from GitPod.
 * [Flowmap](https://www.flowmapp.com) was used to create user flowmaps during the design process of this project.
 * [Heroku](https://www.heroku.com/) was used to deplpoy the game to a live cloud based applicaiton.
+* import os is used in my clear_terminal function (found on line 11 - 19 in run.py). This allows me to create a function for clearing the terminal.
+* import random is used for F5, a random number generator puzzle. This is needed to create the random number generator.
 
 ## Features 
 
