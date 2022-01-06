@@ -277,7 +277,7 @@ while exit_choice != "EXIT":
                 print("Searching......\n")
                 print("You found it! Today's password is eggman")
                 print("Are you ready to unlock the vault?")
-                password_answer = check_input("What is the password?\n", ["eggman"], "Wrong answer, try again." )
+                password_answer = check_input("What is the password?\n", ["eggman"], "Wrong answer, try again.")
                 if password_answer == "eggman":
                     print("The keypad lights green, the vault door unlocks.")
                     print("You now have access to the vault!")
