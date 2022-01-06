@@ -21,7 +21,7 @@ def clear_terminal():
 
 def check_input(prompt, valid_inputs, error_message):
     input_valid = False
-    while input_valid == False:
+    while input_valid is False:
         user_input = input(prompt)
         if user_input not in valid_inputs:
             print(error_message)
