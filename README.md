@@ -138,7 +138,7 @@ Testing was undertaken at the start, during and after finishing my project. To c
 <img width="1277" alt="Screenshot 2021-11-16 at 12 19 07" src="https://user-images.githubusercontent.com/86608354/141984157-f5f1897b-0d0d-4879-97c2-8886575c788d.png">
 
 * PEP8 
- * No major errors were found when passing through the [PEP8 Online Check] (http://pep8online.com/checkresult#)
+ * No major errors were found when passing through the [PEP8 Online Check](http://pep8online.com/)
  
  <img width="842" alt="Screenshot 2022-01-06 at 16 48 04" src="https://user-images.githubusercontent.com/86608354/148419049-8b6ff814-2fd3-47e5-9af7-4f7f8b80b289.png">
 
