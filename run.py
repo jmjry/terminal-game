@@ -338,5 +338,5 @@ while exit_choice != "EXIT":
         print("Easter Egg")
         print("Congratulations.")
 
-    exit_choice = input("Press enter to play again or type EXIT!\n")
+    exit_choice = input("Press enter to play again or end by typing EXIT!\n")
 clear_terminal()
