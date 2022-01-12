@@ -108,16 +108,22 @@ The user will need to read and comprehend the content provided to ensure they kn
 ![Screenshot 2021-11-16 at 15 02 05](https://user-images.githubusercontent.com/86608354/142010191-c2b71f39-cabc-4900-b2a5-d76bc6ab534d.png)
 ![Screenshot 2021-11-16 at 15 02 19](https://user-images.githubusercontent.com/86608354/142010217-b32a5eb6-3db9-4541-870c-c01db3b31651.png)
 
+* F11 - Check Input Function 
+
+To ensure user inputs where valid and followed the instructions directed in the game I created a function that would check the users input and pass if valid or print an error message if invalid. The parameters of this function could be edited and applied uniquely. 
+
+![Screenshot 2022-01-12 at 13 32 02](https://user-images.githubusercontent.com/86608354/149149845-45356230-c099-43e5-b2d1-3946a4f9f090.png)
 
 ### Features which could be implemented in the future:
 
-* F11 - Easter Egg
+* F12 - Easter Egg
 
 With additional time I would like to add an Easter Egg to the game. Many game players enjoy searching and hunting for easter eggs so I feel this addition would improve the value and playability of my game.
 
-* F12 - User Login
+* F13 - User Login
 
 I'd like to add the availbility for a user to create an account for the game. This would require a user to register a username and password which will then be stored in a google sheet and linked via an API. With this added, it would give the game scope to enhance the user experience and furthering the way users interact with the game.
+
 
 ## Testing 
 
