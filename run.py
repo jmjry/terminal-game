@@ -67,7 +67,7 @@ def main():
         )
         # Randomly generates a character for the user
         check_input(
-            "Incorrect input\n", [""], "Press enter to continue"
+            "Press enter to continue\n", [""], "Incorrect input, press enter."
         )
 
         print("You’re attempting to pull off a heist.")
