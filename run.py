@@ -20,6 +20,10 @@ def clear_terminal():
 
 
 def check_input(prompt, valid_inputs, error_message):
+    """
+    User inputs the prompt, valid inputs and error message.
+    This can be changed each time the function is called
+    """
     input_valid = False
     while input_valid is False:
         user_input = input(prompt)
