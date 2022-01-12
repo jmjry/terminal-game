@@ -35,6 +35,7 @@ def check_input(prompt, valid_inputs, error_message):
 
 
 def main():
+    # The main function contains the game structure
     exit_choice = ""
     while exit_choice != "EXIT":
         """exitChoice will allow
