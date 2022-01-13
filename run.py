@@ -37,11 +37,8 @@ def check_input(prompt, valid_inputs, error_message):
 def main():
     # The main function contains the game structure
     exit_choice = ""
-    while exit_choice != "EXIT":
-        """exitChoice will allow
-        the user to exit the game at
-        anytime by typing EXIT
-        """
+    while exit_choice != "Game":
+
         player = [
             "a Teacher",
             "a Golfer",
@@ -347,10 +344,10 @@ def main():
             print("Congratulations.")
 
         exit_choice = check_input(
-            "Press enter to continue or EXIT to end \n", [""],
+            "Press enter to restart the game. \n", [""],
             "Incorrect input, press enter."
         )
-    clear_terminal()
+        clear_terminal()
 
 
 if __name__ == "__main__":
