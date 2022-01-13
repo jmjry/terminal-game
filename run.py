@@ -346,7 +346,10 @@ def main():
             print("Easter Egg")
             print("Congratulations.")
 
-        exit_choice = input("Press enter to play again, end by typing EXIT!\n")
+        exit_choice = check_input(
+            "Press enter to continue or EXIT to end \n", [""],
+            "Incorrect input, press enter."
+        )
     clear_terminal()
 
 
