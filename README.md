@@ -70,7 +70,6 @@ This challenge requires the user to input a number between 1 and 5 into the term
 
 <img width="738" alt="Screenshot 2021-11-16 at 11 55 02" src="https://user-images.githubusercontent.com/86608354/141981038-f974dca2-9610-4a85-8f85-c932287adef6.png">
 <img width="738" alt="Screenshot 2021-11-16 at 11 55 12" src="https://user-images.githubusercontent.com/86608354/141981047-5452338a-3ee7-4afc-8f33-02e8d4ae6cff.png">
-<img width="738" alt="Screenshot 2021-11-16 at 11 55 23" src="https://user-images.githubusercontent.com/86608354/141981053-8e73ea5a-e389-44ab-8683-6ab731bf9108.png">
 
 
 * F6 - Keypad loop puzzle 
@@ -96,7 +95,6 @@ User will need to input a word to proceed on the route.
 The user will be presented with a puzzle which requires some logically thinking. If the user gets the puzzle correct they will proceed otherwise they will be asked to try again.
 
 ![Screenshot 2021-11-16 at 14 58 18](https://user-images.githubusercontent.com/86608354/142009408-5a20b973-90a0-4251-a355-97e5b8545560.png)
-![Screenshot 2021-11-16 at 14 59 40](https://user-images.githubusercontent.com/86608354/142009488-131b4baa-9139-42ae-a5e3-388e84fda689.png)
 ![Screenshot 2021-11-16 at 14 58 29](https://user-images.githubusercontent.com/86608354/142009514-cec028bd-a82d-4867-9e7d-dc9d981ff02e.png)
 ![Screenshot 2022-01-13 at 10 45 24](https://user-images.githubusercontent.com/86608354/149315757-5c8f5f2c-7e50-4572-8dc5-7582bd568e1f.png)
 
@@ -104,7 +102,6 @@ The user will be presented with a puzzle which requires some logically thinking.
 
 Similar to the first maths puzzle however this is more of a riddle than puzzle. The user will need to get it right to proceed and win.
 
-![Screenshot 2021-11-16 at 14 58 43](https://user-images.githubusercontent.com/86608354/142009544-7df08c5e-0ead-446e-8723-3d3217b5ea09.png)
 ![Screenshot 2021-11-16 at 14 59 24](https://user-images.githubusercontent.com/86608354/142009574-58182928-7756-4bf9-be9b-716c61a46931.png)
 ![Screenshot 2022-01-13 at 10 45 37](https://user-images.githubusercontent.com/86608354/149315784-558ea278-dc8a-4809-a864-acf4425ad89a.png)
 
@@ -112,7 +109,6 @@ Similar to the first maths puzzle however this is more of a riddle than puzzle. 
 
 The user will need to read and comprehend the content provided to ensure they know the password to proceed with the game. If they get it wrong then they will be prompted to try again.
 ![Screenshot 2021-11-16 at 15 01 52](https://user-images.githubusercontent.com/86608354/142010138-e947e6cc-84e9-4e1a-aaef-fbf0075693cc.png)
-![Screenshot 2021-11-16 at 15 02 05](https://user-images.githubusercontent.com/86608354/142010191-c2b71f39-cabc-4900-b2a5-d76bc6ab534d.png)
 ![Screenshot 2021-11-16 at 15 02 19](https://user-images.githubusercontent.com/86608354/142010217-b32a5eb6-3db9-4541-870c-c01db3b31651.png)
 ![Screenshot 2022-01-13 at 10 46 16](https://user-images.githubusercontent.com/86608354/149315888-0b8861ff-19cc-4a41-96f0-baacd356747e.png)
 
